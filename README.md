@@ -2,13 +2,7 @@
 
 int main(int argc, const char * argv[])
 {
-	auto yy = $({
-        "1", 2,
-        "3", $[{1, 2, 3}],
-        "5", false,
-        "xx", "yy"
-    });
-    
+
     std::string s1 = $("hello world!");
     std::string s3 = $(10.01f);
     std::string s4 = $(false);
