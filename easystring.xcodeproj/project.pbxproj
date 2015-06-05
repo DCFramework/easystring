@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D8108D631B1C59D500FB803C /* easystring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8108D601B1C59D500FB803C /* easystring.cpp */; };
 		D8108D641B1C59D500FB803C /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D8108D621B1C59D500FB803C /* main.mm */; };
+		D893C0B91B21A53C00CFE6B1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D893C0B81B21A53C00CFE6B1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		D8108D611B1C59D500FB803C /* easystring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easystring.h; sourceTree = "<group>"; };
 		D8108D621B1C59D500FB803C /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		D880806C1B1EAB290033ABEF /* easystring.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = easystring.inl; sourceTree = "<group>"; };
+		D893C0B81B21A53C00CFE6B1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		D8108D581B1C59C200FB803C /* testdcstring */ = {
 			isa = PBXGroup;
 			children = (
+				D893C0B81B21A53C00CFE6B1 /* README.md */,
 				D8108D601B1C59D500FB803C /* easystring.cpp */,
 				D880806C1B1EAB290033ABEF /* easystring.inl */,
 				D8108D611B1C59D500FB803C /* easystring.h */,
@@ -125,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D893C0B91B21A53C00CFE6B1 /* README.md in Sources */,
 				D8108D641B1C59D500FB803C /* main.mm in Sources */,
 				D8108D631B1C59D500FB803C /* easystring.cpp in Sources */,
 			);
