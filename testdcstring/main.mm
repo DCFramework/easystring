@@ -86,6 +86,7 @@ int main(int argc, const char * argv[])
 
     $assert(xx.str() == "[1,2,3]", "");
     $assert(yy.str() == "{\"1\":2,\"3\":[1,2,3],\"5\":false,\"xx\":\"yy\"}", "");
+    $assert(yy.str() == "{\"1\":2,\"3\":[1,2,3],\"5\":false,\"xx\":\"yy\"}", "");
     
     $assert(false, "end of my test: %s", "good");
 
