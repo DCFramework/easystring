@@ -1,24 +1,21 @@
 # easystring
 
-//= $ =====================================
 std::string s1 = $("hello world!");
 std::string s3 = $(10.01f);
 std::string s4 = $(false);
 std::string s5 = $ + "hello" + " world" + " zg " + 10 + " " + false;
 
-//= $ parse ===============================
 auto a = $int.parse("100");
 auto b = $float.parse("100.1");
 auto c = $double.parse("100.1");
 auto d = $bool.parse("false"); //空值，"0"及"false"以外都是true
-//= $ split ===============================
+
 auto v0 = $.split("hello world zg", " ");
 auto v1 = $int.split("1,200;2,400", ",;");
 auto v2 = $float.split("1,200.01,2,400.02", ",");
 auto v3 = $double.split("1,200.01;2,400.02", ",;");
 auto v4 = $bool.split("0,false;1,true", ",;");
 
-//= $ 公开方法 =============================
 $.log("format: %d", 10);
 auto s2 = $.format("hello world %s %d!", "zg", 10);
 auto v5 = $.split("hello world zg", " ");
